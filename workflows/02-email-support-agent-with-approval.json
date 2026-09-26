@@ -168,7 +168,7 @@
     {
       "parameters": {
         "operation": "sendAndWait",
-        "sendTo": "reviewer@example.com",
+        "sendTo": "romith71@gmail.com",
         "subject": "==Approve reply? {{ $json.subject }}",
         "message": "==Customer: {{ $json.customer_email }}\n  Subject: {{ $json.subject }}\n  \n  --- Draft Reply ---\n  {{ $json.draft_reply }}",
         "approvalOptions": {
