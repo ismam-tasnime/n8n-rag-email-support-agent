@@ -48,7 +48,7 @@ The draft doesn't go to the customer yet. It goes to a reviewer's inbox with App
     └── email-query-and-reply.jpg
 ```
 
-Credential IDs, the Google Drive file ID, and the reviewer's email address are placeholders in both JSON files. The sender's email address is blanked out in the Gmail screenshot.
+Credential IDs and the Google Drive file ID are placeholders in both JSON files, so you'll need to connect your own accounts after importing.
 
 ## Workflow 1: Knowledge base ingestion
 
@@ -241,7 +241,7 @@ $$;
 
 1. Import `workflows/02-email-support-agent-with-approval.json`.
 2. Connect Gmail, OpenAI, Supabase, and a Postgres credential for chat memory (Supabase's own Postgres connection works).
-3. In **Request Human Approval**, change `reviewer@example.com` to the address that should approve replies.
+3. In **Request Human Approval**, change `romith71@gmail.com` to the address that should approve replies.
 4. Change the system prompt if your company isn't Nexora Parts.
 5. Activate the workflow.
 
